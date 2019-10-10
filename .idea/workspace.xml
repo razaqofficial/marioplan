@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95907f53-5deb-44c4-9782-86809618641e" name="Default Changelist" comment="" />
+    <list default="true" id="95907f53-5deb-44c4-9782-86809618641e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +38,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>project</find>
-      <find>signOut</find>
-      <find>login</find>
-      <find>Redirect</find>
-      <find>console.l</find>
-      <find>conso</find>
-      <find>console</find>
-      <find>console.log</find>
-      <find>load</find>
-      <find>p</find>
-      <find>bar</find>
-      <find>pro</find>
-      <find>likeProject</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,7 +149,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="de.espend.idea.laravel.ui.TemplateSettingsForm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -214,7 +200,8 @@
       <workItem from="1556117235744" duration="2770000" />
       <workItem from="1556297784634" duration="2629000" />
       <workItem from="1557005696359" duration="1101000" />
-      <workItem from="1570710816581" duration="1106000" />
+      <workItem from="1570710816581" duration="2054000" />
+      <workItem from="1570718113630" duration="186000" />
     </task>
     <servers />
   </component>
