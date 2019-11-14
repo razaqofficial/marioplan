@@ -15,6 +15,7 @@ import CreateProject from "./projects/CreateProject";
  * allows your team to easily build robust real-time web applications.
  */
 import Echo from 'laravel-echo';
+import AuthContextProvider from "../context/AuthContext";
 window.Pusher = require('pusher-js');
 
 class App extends Component {
@@ -42,14 +43,16 @@ class App extends Component {
             <React.Fragment>
                <BrowserRouter>
                  <div className="App">
-                     <Navbar/>
-                    <Switch>
-                        <Route exact path="/" component={ Dashboard }/>
-                        <Route path="/project/:project_id" component={ ProjectDetails }/>
-                        <Route path="/login" component={ SignIn }/>
-                        <Route path="/register" component={ SignUp }/>
-                        <Route path="/create-project" component={ CreateProject }/>
-                    </Switch>
+                     <AuthContextProvider>
+                            <Navbar/>
+                            <Switch>
+                                <Route exact path="/" component={ Dashboard }/>
+                                <Route path="/project/:project_id" component={ ProjectDetails }/>
+                                <Route path="/login" component={ SignIn }/>
+                                <Route path="/register" component={ SignUp }/>
+                                <Route path="/create-project" component={ CreateProject }/>
+                            </Switch>
+                     </AuthContextProvider>
                  </div>
                </BrowserRouter>
             </React.Fragment>
